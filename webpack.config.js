@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 
 module.exports = {
     entry: './src/index.js', // Setting root of the application.
@@ -28,7 +27,7 @@ module.exports = {
                     ]
                   },
             },
-            
+
             { 
                 test: /\.css$/, 
                 use: 'css-loader' },
