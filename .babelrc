@@ -2,5 +2,13 @@
     "presets": [
         "@babel/env",
         "@babel/react"
+    ],
+    "plugins": [
+        [
+          "@babel/plugin-proposal-class-properties",
+          {
+            "loose": true 
+          }  // Babel's loose mode transpiles ES6 code to ES5 code that is less faithful to ES6 semantics.
+        ]
     ]
 }
